@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from sites.usm import mint
 from sites.usmfast import mintfast
 from pages.createdialog import CreateDialog
-from utils import get_profile, get_proxy, BirdLogger, return_data, write_data, open_browser, Encryption
+from utils import get_profile, get_proxy, BirdLogger, return_data, write_data, Encryption
 import urllib.request,sys,platform
 import settings
 def no_abort(a, b, c):
